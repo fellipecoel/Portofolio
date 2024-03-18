@@ -1,0 +1,119 @@
+body{
+    color: white;
+    font-size: 20px;
+    background-color: #1a0c2b;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+}
+
+.home{
+    justify-content: space-between;
+    align-items: center;
+    height: 80vh;
+    display: flex;
+    margin: 0 50px;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+    border-right: 3px solid #f34da9;
+    padding: 0 50px;
+}
+
+.menu a:last-child{
+    border: none;
+}
+
+span{
+    color: #f34da9;
+}
+
+.sLogo{
+    width: 350px;
+}
+
+h1{
+    font-size: 90px;
+}
+
+.styleHeader{
+    display: flex;
+    align-items: center;
+}
+
+.styleHeader img{
+    width: 20%;
+    margin-right: 10px;
+    height: 20%;
+}
+
+.styleHeader h2{
+    font-size: 50px;
+}
+
+.styleMain{
+ margin: 70px 120px;
+}
+
+p{
+text-align: justify;
+}
+
+.card{
+    border: 4px solid #581077;
+    border-radius: 11px;
+    padding: 0 15px;
+    background-color: #a013dd21;
+    margin: 0 5%;
+}
+
+.card h3{
+    text-align: center;
+    border-bottom: #f34da9 solid 1px;
+    margin: 0;
+    line-height: 90px;
+}
+
+.mainProjetos{
+    display: flex;
+    justify-content: space-around;
+}
+
+.containerHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 50px;
+    margin: 0 40px;
+}
+
+.containerHeader a{
+    color: white;
+}
+
+.containerHeader a:hover{
+    color: #f34da9;
+}
+
+.styleItem img {
+    width: 100px;
+}
+
+.styleItem p{
+    font-size: 25px;
+}    
+
+.styleItem{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.styleItens{
+    display: flex;
+    justify-content: space-around;
+}
